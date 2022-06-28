@@ -9,7 +9,6 @@
                 <small>
                     <p class="navbar-brand my-lg-0" href="#">Conf Bs As</p>
                 </small>
-                <small>
                     <div class="collapse navbar-collapse" id="navbarScroll">
                         <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                             <li class="nav-item">
@@ -22,14 +21,13 @@
                                 <a class="nav-link" href="#">El lugar y la fecha</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Conviertete en orador</a>
+                                <a class="nav-link font-weight-bold" href="#">Conviertete en orador</a>
                             </li>
                             <li class="nav-item" >
                                 <a class="nav-link text-success" href="#">Comprar tickets</a>
                             </li>
                         </ul>
                     </div>
-                </small>
             </div>
     </nav>
 
@@ -74,18 +72,22 @@
             </div>
             <div class="form-row input">
               <div class="form-group col">
-                <label for="inputCity">Cantidad</label>
-                <input type="text" class="form-control" id="inputCity" placeholder="Cantidad">
+                <label for="cantidad">Cantidad</label>
+                <input type="number" class="form-control" id="cantidad" placeholder="Cantidad">
               </div>
               <div class="form-group col">
-                <label for="inputState">Categoria</label>
-                <select id="inputState" class="form-control">
+                <label for="categoria">Categoria</label>
+                <select id="categoria" class="form-control">
                   <option selected>Seleccionar</option>
                   <option>Estudiante</option>
                   <option>Trainee</option>
                   <option>Junior</option>
                 </select>
               </div>
+            </div>
+            <div>
+                <button type="button" class="btn boton btn-lg tamañoBoton col">Borrar</button>
+                <button type="button" class="btn boton btn-lg tamañoBoton col" onclick=sumarTickets()>Resumen</button>
             </div>
         </form>
 
@@ -125,4 +127,7 @@
             </div>
         </nav>
     </div>
+
+    <script src="js/categoria.js"></script>
+
 </body>

@@ -40,11 +40,36 @@
     font-weight: 700;
 }
 
+.React{
+  width: 40px;
+  height: 20px;
+  font-size: small;
+  font-weight: 600;
+}
+
+.Negocios{
+  width: 63px;
+  height: 20px;
+  font-size: small;
+  font-weight: 600;
+}
+
+.Startups{
+  width: 55px;
+  height: 20px;
+  font-size: small;
+  font-weight: 600;
+}
 
 .Enviar{
   background-color:rgb(138, 210, 31);
   font-weight: 600;
   width: 43rem;
+  color: white;
+}
+
+.Boton{
+  background-color:rgb(138, 210, 31);
   color: white;
 }
 
@@ -62,7 +87,7 @@ u {
 .texto{
   position: relative;
   left: 125px;
-  }
+}
 
 .cuadradoEstudiante {
     width: 250px; 
@@ -109,9 +134,8 @@ u {
   margin-left: 4.3rem;
 }
 
-
-
-
-
-
-
+.tamañoBoton{
+  width: 26.8rem; 
+  margin-right: 1rem;
+  left: 6%;
+}
