@@ -1,0 +1,106 @@
+.navbar-nav{
+  margin-left: auto;
+}
+
+.PiePagina{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(42,59,70,1) 0%, rgba(13,27,46,1) 100%);
+}
+
+.imagen{
+  filter: brightness(50%);
+}
+
+.margenIzquierdo{
+  margin-left: 100px;
+}
+
+.margenDerecho{
+  margin-right: 150px;
+}
+
+.parrafo{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+.titulo{
+  text-align: left; 
+  font-weight: 600;
+}
+
+.tituloPrincipal{
+  text-align: left;
+}
+
+.JavaScript{
+    width: 65px;
+    height: 20px;
+    font-size: small;
+    font-weight: 700;
+}
+
+
+.Enviar{
+  background-color:rgb(138, 210, 31);
+  font-weight: 600;
+  width: 43rem;
+  color: white;
+}
+
+u {    
+  border-bottom: 1px dotted #000;
+  text-decoration: none;
+}
+
+.columna{
+  font-weight: 600;
+  width: 43rem;
+  color: white;
+}
+
+.texto{
+  position: relative;
+  left: 125px;
+  }
+
+.cuadradoEstudiante {
+    width: 250px; 
+    height: 250px; 
+    top: 25px;
+    left: 90px;
+    right: 20px;
+    border: 2px solid lightblue;
+}
+
+.cuadradoTrainee {
+  width: 250px; 
+  height: 250px;
+  top: 25px;
+  left: 95px; 
+  border: 2px solid lightblue;
+}
+
+.cuadradoJunior {
+  width: 250px; 
+  height: 250px; 
+  top: 25px;
+  left: 100px; 
+  border: 2px solid orange;
+}
+
+.venta { 
+  margin-top: 50px;
+}
+
+.documentacion{
+  margin-top: 100px;
+  top: 100px;
+  margin-bottom: 100px;
+}
+
+
+
+
+
+
