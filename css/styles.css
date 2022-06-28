@@ -119,9 +119,7 @@ u {
 }
 
 .documentacion{
-  margin-top: 100px;
-  top: 100px;
-  margin-bottom: 100px;
+  padding-bottom: 40rem;
 }
 
 .input{
@@ -139,3 +137,8 @@ u {
   margin-right: 1rem;
   left: 6%;
 }
+
+.tamañoLetra{
+  font-size: 20px;
+}
+

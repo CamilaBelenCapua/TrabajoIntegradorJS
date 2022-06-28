@@ -13,5 +13,9 @@ function sumarTickets() {
         porcentajeCategoria = 0.5;
         total = valorTicket * porcentajeCategoria * cantidad;
     }
+    return total;
+}
 
+function mostrarValor(){
+    sumarTickets();
 }
