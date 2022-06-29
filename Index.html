@@ -32,7 +32,7 @@
     </nav>
 
     <div class="card bg-dark text-white" style="text-align: right;">
-        <img class = "imagen" src="img/hawaii.jpg" width="1008" height="500" class="img-responsive"/> 
+        <img class = "imagen" src="img/hawaii.jpg" width="1340" height="500" class="img-responsive"/> 
         <div class="card-img-overlay col-sm-7 ml-auto pr-5 h-75 d-flex flex-column justify-content-end">
                 <h2 class="card-title" >Conf Bs As</h2>
                 <p class="card-text">Buenos Aires llega por primera vez a Argentina. 
@@ -46,7 +46,7 @@
                         <button type="button" class="btn btn-outline-light btn-sm">Quiero ser orador</button>
                     </div>
                     <div class="pr-3" >
-                        <button type="button" class="btn btn-success">Comprar tickets</button>
+                        <button type="button" class="btn btn-success" id="ComprarTickets" onclick="location.href='Ticket.html'">Comprar tickets</button>
                     </div>
                 </div>            
         </div>
@@ -61,8 +61,8 @@
 
     <div class = "mt-4" style="display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 1rem;">
         <section style="text-align: center;">
-           <div class="card margenIzquierdo"  style="margin-top: 2;">
-                <img src="img/steve.jpg" width="250" height="220" class="img-responsive">
+           <div class="card posicionJobs"   style="width: 18rem;" style="margin-top: 2;">
+                <img src="img/steve.jpg" width="289" height="250" class="img-responsive">
                 <div class="card-body">
                     <div class="container">
                         <div class="row">
@@ -87,8 +87,8 @@
         </section>
 
         <section style="text-align: center;">
-            <div class="card" >
-                <img src="img/bill.jpg" width="250" height="220" class="img-responsive">
+            <div class="card posicionBill" style="width: 18rem;">
+                <img src="img/bill.jpg" width="289" height="250" class="img-responsive">
                 <div class="card-body">
                      <div class="container">
                         <div class="row">
@@ -111,8 +111,8 @@
         </section>
 
         <section style="text-align: center;">
-            <div class="card margenDerecho" >
-                <img src="img/ada.jpeg" width="250" height="220" class="img-responsive">
+            <div class="card margenDerecho"  style="width: 18rem;">
+                <img src="img/ada.jpeg" width="289" height="250" class="img-responsive">
                 <div class="card-body">
                     <div class="container">
                         <div class="row">
@@ -177,7 +177,7 @@
             <div >
                 <label for="exampleFormControlTextarea1" class="form-label"></label>
                 <textarea class="col-md-10 "  style="width : 43rem; height : 7rem" id="exampleFormControlTextarea1" placeholder="Sobre qué quieres hablar?"></textarea>
-                <footer class="text-muted texto" style="text-align: left;">Recuerda incluir un titulo para tu charla</footer>
+                <footer class="text-muted texto">Recuerda incluir un titulo para tu charla</footer>
                 <button class="btn Enviar my-3" type="button">Enviar</button>
             </div>
         </div>
@@ -214,4 +214,5 @@
             </div>
         </nav>
     </div>
+    <script src="js/categoria.js"></script>
 </body>

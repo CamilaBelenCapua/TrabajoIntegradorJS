@@ -11,12 +11,16 @@
   filter: brightness(50%);
 }
 
-.margenIzquierdo{
-  margin-left: 100px;
+.posicionJobs{
+  margin-left: 120px;
 }
 
 .margenDerecho{
-  margin-right: 150px;
+  margin-right: 200px;
+}
+
+.posicionBill{
+  margin-left: 80px;
 }
 
 .parrafo{
@@ -86,7 +90,7 @@ u {
 
 .texto{
   position: relative;
-  left: 125px;
+  right: 18%;
 }
 
 .cuadradoEstudiante {

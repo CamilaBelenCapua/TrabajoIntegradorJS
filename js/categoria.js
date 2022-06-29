@@ -25,3 +25,7 @@ function borrarValor(){
 
     document.getElementById("totalPago").innerHTML= "Total a pagar $" + cantidad
 }
+
+document.getElementById("ComprarTickets").onclick = function () {
+    location.href = "Ticket.html";
+};
