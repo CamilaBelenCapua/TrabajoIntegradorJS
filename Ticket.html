@@ -86,12 +86,12 @@
               </div>
             </div>
             <div>
-                <button type="button" class="btn boton btn-lg tamañoBoton col">Borrar</button>
+                <button type="button" class="btn boton btn-lg tamañoBoton col" onclick=borrarValor()>Borrar</button>
                 <button type="button" class="btn boton btn-lg tamañoBoton col" onclick=sumarTickets()>Resumen</button>
             </div>
         </form>
 
-        <div class="alert alert-primary tamaño" role="alert">
+        <div class="alert alert-primary tamaño" id="totalPago" role="alert">
             Total a pagar $
         </div>
 
